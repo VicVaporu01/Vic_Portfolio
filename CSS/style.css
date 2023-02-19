@@ -129,12 +129,12 @@ h1 {
     margin: 5px;
 }
 
-/*Proyects*/
+/*Projects*/
 .recent-projects {
     padding: 40px;
 }
 
-.proyects img {
+.recent-projects img {
     height: 100%;
     width: 100%;
     padding: 10px;
@@ -143,10 +143,10 @@ h1 {
     transition: all 0.2s ease;
 }
 
-.proyects-container {
+.projects-container {
     padding-top: 60px;
     margin-bottom: 40px;
-    border: 10px solid black;
+    /*border: 10px solid black;*/
 }
 
 .overlay {
@@ -165,13 +165,28 @@ h1 {
     margin-bottom: 0;
 }
 
-.proyect:hover img {
+.project {
+    position: relative;
+}
+
+.project:hover img {
     opacity: 0.2;
 }
 
-.proyect:hover .overlay {
+.project:hover .overlay {
     opacity: 1;
 }
+
+.overlay .icons-container {
+    display: flex;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
 
 /*Adaptable (responsivo)*/
 @media screen and (max-width: 767px) {
