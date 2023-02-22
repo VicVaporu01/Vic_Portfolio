@@ -43,6 +43,15 @@ h1 {
     color: #584e4e;
 }
 
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+}
+
+/*.btn-info .my-arrow {*/
+/*    color: white;*/
+/*}*/
+
 .texto-negro {
     color: black;
 }
@@ -50,7 +59,6 @@ h1 {
 .texto-blanco {
     color: white;
 }
-
 
 /*Seccion Hero*/
 .hero {
