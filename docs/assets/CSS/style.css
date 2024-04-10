@@ -1,51 +1,55 @@
 /*Barra de navegacion*/
 .navbar {
-    padding: 2rem;
-    background-color: #1b1b32;
+  padding: 2rem;
+  background-color: #1b1b32;
 }
 
 .navbar-collapse {
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /*Estilos generales*/
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-family: 'Rubik Dirt', cursive;
+  font-size: 2.5rem;
+  font-family: 'Rubik Dirt', cursive;
 }
 
 .seccion-oscura {
-    color: white;
-    background-color: #1b1b32;
+  color: white;
+  background-color: #1b1b32;
 }
 
 .seccion-clara {
-    color: black;
-    background-color: white;
+  color: black;
+  background-color: white;
 }
 
-.seccion-titulo {
-    font-size: 2rem;
-    padding: 15px 0;
-    font-family: 'Rubik Dirt', cursive;
+.title-section {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive;
 }
 
-.seccion-descripcion {
-    font-size: 1.2rem;
-    color: #584e4e;
+.description-section {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.text-section {
+  font-size: 1.2rem;
 }
 
 .btn-info {
-    font-size: 1.1rem;
-    margin: 20px;
+  font-size: 1.1rem;
+  margin: 20px;
 }
 
 /*.btn-info .my-arrow {*/
@@ -53,350 +57,352 @@ h1 {
 /*}*/
 
 .texto-negro {
-    color: black;
+  color: black;
 }
 
 .texto-blanco {
-    color: white;
+  color: white;
 }
 
 /*Seccion Hero*/
 .hero {
-    background-color: #f5f6f7;
-    min-height: 450px;
-    text-align: center;
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
 }
 
 .hero-principal {
-    padding: 3rem;
+  padding: 3rem;
 }
 
 .hero-imagen-desarrollador {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
+  width: 200px;
+  height: 250px;
+  margin: 20px;
 }
 
 .hero-principal h2 {
-    font-size: 1.5rem;
-    color: #615151;
+  font-size: 1.5rem;
+  color: #615151;
 }
 
 /*Aboutme*/
 .Aboutme {
-    height: 500px;
-    padding: 10px;
+  height: 500px;
+  padding: 10px;
 }
 
 .Aboutme .contenedor {
-    max-width: 600px;
-    /*text-align: center;*/
+  max-width: 600px;
+  /*text-align: center;*/
 }
 
 /*Experience*/
 .experience {
-    padding: 40px 40px 60px 40px;
+  padding: 40px 40px 60px 40px;
 }
 
 .experience .columna {
-    padding: 20px;
-    border: 2px solid #8080804d;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    transition: all 0.5s ease-in;
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.5s ease-in;
 }
 
 .experience .columna:hover {
-    color: white;
-    background-color: #1b1b32;
+  color: white;
+  background-color: #1b1b32;
 }
 
 .experience-title {
-    font-size: 25px;
-    font-weight: bold;
-    margin: 10px 0;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
 }
 
 .experience i {
-    font-size: 2.5rem;
-    color: #7ade30;
-    background-color: #0a0a23;
-    padding: 8px 19px;
-    border-radius: 50%;
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
 }
 
 .badges-contenedor {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
 }
 
 .badge {
-    margin: 5px;
+  margin: 5px;
 }
 
 /*Projects*/
 .recent-projects {
-    padding: 40px;
+  padding: 40px;
 }
 
 .recent-projects img {
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-    display: block;
-    transition: all 0.2s ease;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
 }
 
 .projects-container {
-    padding-top: 60px;
-    margin-bottom: 40px;
-    /*border: 10px solid black;*/
+  padding-top: 60px;
+  margin-bottom: 40px;
+  /*border: 10px solid black;*/
 }
 
 .overlay {
-    transition: all 0.2s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .overlay p {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 0;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 .project {
-    position: relative;
+  position: relative;
 }
 
 .project:hover img {
-    opacity: 0.2;
+  opacity: 0.2;
 }
 
 .project:hover .overlay {
-    opacity: 1;
+  opacity: 1;
 }
 
 .overlay .icons-container {
-    display: flex;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .overlay i {
-    color: black;
-    font-size: 60px;
-    margin: 10px;
+  color: black;
+  font-size: 60px;
+  margin: 10px;
 }
 
 /*Articles*/
 .articles {
-    min-height: 500px;
-    padding: 30px;
+  min-height: 500px;
+  padding: 30px;
 }
 
 .articles .card {
-    width: 80%;
-    max-width: 600px;
-    margin: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
 }
 
 .articles .card-header {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /*Testimonials*/
 .testimonials {
-    padding: 40px 40px 80px 40px;
+  padding: 40px 40px 80px 40px;
 }
 
 .testimonials .carousel {
-    max-width: 800px;
+  max-width: 800px;
 }
 
 .carousel-item {
-    height: 500px;
+  height: 500px;
 }
 
 .carousel-item .container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .testimonials-img {
-    height: 150px;
-    width: 150px;
-    margin: 10px 10px 20px 10px;
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px 20px 10px;
 }
 
 .testimonial-text {
-    max-width: 70%;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Share Tech Mono', monospace;
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 .testimonial-inf {
-    font-weight: bold;
-    text-align: center;
+  font-weight: bold;
+  text-align: center;
 }
 
 .testimonial-inf p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .testimonial-inf .customer {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .testimonial-inf .position {
-    font-size: 0.9rem;
-    color: #656060;
+  font-size: 0.9rem;
+  color: #656060;
 }
 
 /*Contact*/
 .contact .container {
-    max-width: 1100px;
-    min-height: 200px;
-    padding: 20px;
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
 }
 
 .contact .rectangle {
-    margin-top: -5rem;
-    background-color: rgb(13, 110, 253);
-    border-radius: 10px;
-    box-shadow: 0px 1px 4px 1px white;
+  margin-top: -5rem;
+  background-color: rgb(13, 110, 253);
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
 }
 
 .contact .row {
-    width: 100%;
-    display: flex;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .contact .desciption {
-    color: white;
-    font-size: 1.2rem;
+  color: white;
+  font-size: 1.2rem;
 }
 
 .contact button {
-    color: white;
-    font-weight: bold;
-    background-color: transparent;
-    border: 2px solid white;
-    padding: 1.25em 2em;
-    margin: 10px;
-    border-radius: 100px;
-    transition: all 0.2s ease-in-out;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
 }
 
 .contact button:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .contact button i {
-    color: white;
-    font-size: 1.3rem;
-    transition: all 0.2s ease-in-out;
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
 }
 
 .contact button:hover i {
-    color: black;
+  color: black;
 }
 
 /*Footer*/
 footer {
-    min-height: 500px;
+  min-height: 500px;
 }
 
 .footer-logo {
-    height: 80px;
-    width: 80px;
-    margin: 10px;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
 }
 
 .footer-texto {
-    font-size: 1.5rem;
-    padding: 20px;
-    margin-bottom: 30px;
-    font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .icon-social-networks a {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2px;
-    margin: 10px;
-    border: 2px solid white;
-    border-radius: 50%;
-    transition: all 0.2s ease-in;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
 }
 
 .icon-social-networks i {
-    color: white;
-    font-size: 1.5rem;
-    transition: all 0.2s ease-in;
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
 }
 
 .icon-social-networks a:hover {
-    background-color: white;
-    border: 2px solid rgb(13, 110, 253);
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
 }
 
 .icon-social-networks a:hover i {
-    color: black;
+  color: black;
 }
 
 .derechos-de-autor {
-    font-size: 15px;
-    color: #aeaeae;
-    padding: 20px;
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
 }
 
 /*Adaptable (responsivo)*/
 @media screen and (max-width: 767px) {
-    .navbar-brand {
-        display: none;
-    }
+  .navbar-brand {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 700px) {
-    .hero-inferior-imagen {
-        max-width: 600px;
-    }
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .overlay p {
-        font-size: 18px;
-    }
+  .overlay p {
+    font-size: 18px;
+  }
 
-    .overlay i {
-        font-size: 40px;
-    }
+  .overlay i {
+    font-size: 40px;
+  }
 }
 
 @media screen and(max-width: 800px) {
-    .testimonials-img {
-        height: 120px;
-        width: 120px;
-    }
+  .testimonials-img {
+    height: 120px;
+    width: 120px;
+  }
 
-    .testimonial-text {
-        font-size: 18px;
-    }
+  .testimonial-text {
+    font-size: 18px;
+  }
 }

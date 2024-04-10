@@ -1,0 +1,5 @@
+1- Make the changes.
+2- Run the following command: ng build --base-href "/Vic_Portfolio/" (For now, just ignore the warnings)
+3- Run the following command: npx angular-cli-ghpages --dir=dist/vic-portfolio
+4- Go to dist/vic-portfolio folder and copy the files to the vic-portfolio folder. Paste them on the docs folder.
+5- Commit and push the changes to the repository.
