@@ -1,10 +1,9 @@
 <!--Section Hero-->
 <section id="hero" class="hero align-items-stretch">
-  <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-    <img class="hero-imagen-desarrollador rounded-circle" ngSrc="./assets/images/VicPicture.jpg"
-         alt="Victor Gutierrez Picture" height="472" width="354">
-    <h1>Hello there, I am Victor Gutierrez</h1>
-    <h2>I develop Video Games using Unity engine.</h2>
+  <video muted autoplay loop>
+    <source src="./assets/videos/GameplayHeartOfOak_GameplayProgramming.mp4" type="video/mp4">
+  </video>
+  <div class="capa">
   </div>
   <div class="hero-inferior">
     <img class="hero-inferior-imagen img-fluid" ngSrc="./assets/images/bannerPortafolio-removebg-preview.png"
@@ -16,13 +15,15 @@
 <!--Section About me-->
 <section id="aboutMe" class="Aboutme seccion-oscura">
   <div class="contenedor text-center">
-    <h2 class="title-section">Meet Victor Gutierrez (VicVaporuh)</h2>
-    <p class="text-section">I am a Systems Engineer, video game developer in Unity with a great passion for the
-                            technology, learning and the improvement of my new skills and the immersion that can be
-                            offered in video games. My areas of interest are those where I can apply my skills
-                            as a programmer to create immersive and effective mechanics for video games and
-                            specially, I want to focus in developing the behaviors of enemies and NPC. I am a
-                            lover of RPG and RogueLike games and the use of Artificial Intelligence draws my attention.
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <h1>Hello there, I am Victor Gutierrez</h1>
+    </div>
+    <p class="text-section">I am a Systems Engineer, and video game developer in Unity with a great passion for
+      technology, learning, and the improvement of my new skills and the immersion that can be offered in video
+      games.
+      My areas of interest are those where I can apply my skills as a programmer to create immersive and effective
+      mechanics for video games and specially, I am focused on developing the behaviors of enemies and NPC. I am a
+      lover of RPG and RogueLike games and the use of Artificial Intelligence draws my attention.
     </p>
     <div class="row icon-social-networks">
       <div class="col d-flex justify-content-center align-items-center flex-column">
@@ -51,7 +52,7 @@
         <i class="bi bi-controller"></i>
         <p class="experience-title">VideoGame Developer</p>
         <p>Development of VideoGames and gameplay mechanics taking into account the good development practices
-           and scalable code architecture.</p>
+          and scalable code architecture.</p>
         <div class="badges-contenedor">
           <span class="badge text-bg-primary">Unity</span>
           <span class="badge text-bg-primary">Unity 2D</span>
@@ -64,8 +65,9 @@
       <div class="columna col-12 col-md-4">
         <i class="bi bi-graph-up-arrow"></i>
         <p class="experience-title">Functional analyst</p>
-        <p>PL/SQL support, development of databases, functional analysis of requirements, test plans and java code
-           debugging.</p>
+        <p>PL/SQL support, development of databases, functional analysis of requirements, test plans and java
+          code
+          debugging.</p>
         <div class="badges-contenedor">
           <span class="badge text-bg-primary">PL/SQL</span>
           <span class="badge text-bg-primary">T-SQL</span>
@@ -78,8 +80,9 @@
       <div class="columna col-12 col-md-4">
         <i class="bi bi-book"></i>
         <p class="experience-title">Student</p>
-        <p>Training based on software development, especially APIs, databases, video games, and mobile development using
-           the best practices and oriented to the business.</p>
+        <p>Training based on software development, especially APIs, databases, video games, and mobile
+          development using
+          the best practices and oriented to the business.</p>
         <div class="badges-contenedor">
           <span class="badge text-bg-primary">Systems Engineer at<br>Fundación Universitaria Konrad Lorenz</span>
           <span class="badge text-bg-primary">Unity Junior Developer from Generation Colombia</span>
@@ -106,9 +109,6 @@
           <img ngSrc="./assets/images/HeartOfOak.png" alt="" width="800" height="800">
           <div class="overlay">
             <h4 class="title-section">Heart of Oak</h4>
-            <p class="little-text-section">
-              In this 3 weeks GameJam, I worked on the development of the 100% of the enemies behavior and intelligence.
-            </p>
             <div class="icons-container">
               <a href="https://flexcat.itch.io/the-hearth-of-oak" target="_blank"
                  rel="noopener noreferrer">
@@ -122,17 +122,31 @@
           </div>
         </div>
       </div>
-      <!--			Project 2-->
+      <!--      Proyecto 2-->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="project">
-          <img ngSrc="./assets/images/Evolution%20cell.png" alt="" height="297" width="297">
+          <img ngSrc="./assets/images/ML-AGENTS-UNITY.png" alt="" height="880" width="1885">
+          <div class="overlay">
+            <p>Ants_AI</p>
+            <div class="icons-container">
+              <a href="https://github.com/VicVaporu01/AR_Ants" target="_blank"
+                 rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://vicvaporu.itch.io/ai-ants" target="_blank"
+                 rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--			Project 3-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="project">
+          <img ngSrc="./assets/images/Evolution%20cell.png" alt="" height="800" width="297">
           <div class="overlay">
             <h4 class="title-section">Evolution Cell</h4>
-            <p class="little-text-section">
-              This was a video game developed in two days GameJam where I had the opportunity to work the behavior of
-              the white cells in the game, getting a random behavior, a following player behavior, and a running away
-              behavior.
-            </p>
             <div class="icons-container">
               <a href="https://github.com/VicVaporu01/Project_GameJam3" target="_blank"
                  rel="noopener noreferrer">
@@ -146,16 +160,12 @@
           </div>
         </div>
       </div>
-      <!--			Project 3-->
+      <!--			Project 4-->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="project">
           <img ngSrc="./assets/images/TimeMaze.png" alt="" height="1600" width="1600">
           <div class="overlay">
             <h4 class="title-section">Time Maze</h4>
-            <p class="little-text-section">
-              This was a video game developed in three day for a GameJam. My principal role was as a mechanics
-              programmer and developer of enemies's behavior.
-            </p>
             <div class="icons-container">
               <a href="https://github.com/VicVaporu01/Project_GameJam2" target="_blank"
                  rel="noopener noreferrer">
@@ -169,25 +179,7 @@
           </div>
         </div>
       </div>
-      <!--      Proyecto 4-->
-      <!--      <div class="col-12 col-md-6 col-lg-4">-->
-      <!--        <div class="project">-->
-      <!--          <img ngSrc="./assets/images/goblin.jpg" alt="" height="1000" width="1461">-->
-      <!--          <div class="overlay">-->
-      <!--            <p>Evolution Cell</p>-->
-      <!--            <div class="icons-container">-->
-      <!--              <a href="https://github.com/VicVaporu01/Project_GameJam3" target="_blank"-->
-      <!--                 rel="noopener noreferrer">-->
-      <!--                <i class="bi bi-github"></i>-->
-      <!--              </a>-->
-      <!--              <a href="https://sofi-cu.itch.io/evolution-cell" target="_blank"-->
-      <!--                 rel="noopener noreferrer">-->
-      <!--                <i class="bi bi-laptop"></i>-->
-      <!--              </a>-->
-      <!--            </div>-->
-      <!--          </div>-->
-      <!--        </div>-->
-      <!--      </div>-->
+
     </div>
   </div>
   <a href="https://github.com/VicVaporu01?tab=repositories" target="_blank" rel="noopener noreferrer">
@@ -204,8 +196,9 @@
     <div class="container text-center rectangle d-flex justify-content-evenly">
       <div class="row">
         <div class="col-12 col-md-4 title-section">Let's talk!</div>
-        <div class="col-12 col-md-4 desciption">Contact me to start your video game project, and together we can bring
-                                                your idea to life.
+        <div class="col-12 col-md-4 desciption">Contact me to start your video game project, and together we can
+          bring
+          your idea to life.
         </div>
         <div class="col-12 col-md-4 ">
           <a href="mailto:viccjuan@gmail.com">
